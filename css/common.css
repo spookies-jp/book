@@ -1,0 +1,150 @@
+/* レイアウト設定
+---------------------------------------------------------------------- */
+body {
+    background: #ffffff url(/img/background.gif) repeat scroll left top;
+    text-align: left;
+    color: #52595E;
+}
+#top {
+    margin: 0 auto;
+    text-align: center;
+    width : 900px;
+    height: 251px;
+}
+
+#top h1 {
+    background: #ffffff url(/img/header.gif) no-repeat scroll left top;
+    height: 251px;
+    width: 900px;
+    text-indent: -9999px;
+}
+
+#layout {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#middle_content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#news {
+    font-size: 12pt;
+    text-align: left;
+    margin: 0px 20px;
+}
+    #news .news_line {
+        padding: 10px;
+    }
+    #news .news_line dt {
+        background: #ffffff url(/img/icon_news.gif) no-repeat scroll left 50%;
+        float: left;
+        padding-left: 20px;
+        width: 100px;
+    }
+    #news .news_line dd {
+        width: 750px;
+        padding-left: 100px;
+    }
+
+h2 {
+    height: 110px;
+    width: 874px;
+    text-indent: -9999px;
+
+}
+h2#entertainment {
+    background: #ffffff url(/img/category_entertainment.jpg) no-repeat scroll left top;
+}
+h2#game {
+    background: #ffffff url(/img/category_game.jpg) no-repeat scroll left top;
+}
+h2#tool {
+    background: #ffffff url(/img/category_tool.jpg) no-repeat scroll left top;
+}
+h2#life {
+    background: #ffffff url(/img/category_life.jpg) no-repeat scroll left top;
+}
+h2#widget {
+    background: #ffffff url(/img/category_widget.jpg) no-repeat scroll left top;
+}
+h2#library {
+    background: #ffffff url(/img/category_library.jpg) no-repeat scroll left top;
+}
+
+#middle_content .category {
+    width: 874px;
+    margin: 0 auto;
+}
+    #middle_content .appli_list {
+        margin: 10px 0 10px 50px;
+    }
+        #middle_content .appli_list li{
+            display: table;
+            vertical-align: center;
+            height: 45px;
+        }
+        #middle_content .appli_list li p{
+            float: left;
+        }
+        #middle_content .appli_list li p.icon{
+            width: 100px;
+        }
+        #middle_content .appli_list li p.name{
+            font-size: 14px;
+            font-weight: bold;
+            width: 200px;
+            padding: 8px;
+        }
+        #middle_content .appli_list li p.download{
+            background: #ffffff url(/img/icon_download.gif) no-repeat scroll left top;
+            padding: 8px 30px;
+            width: 300px;
+            height: 25px;
+        }
+
+
+/** フッター */
+
+#footer {
+    background: #ffffff url(/img/line_footer.gif) no-repeat scroll left top;
+    font-size: 90%;
+    width: 900px;
+    margin: 0 auto;
+    height: 30px;
+    padding-top: 15px;
+}
+    #footer p.copyright{
+        text-align: center;
+    }
+
+    #footer .menu {
+        text-align: center;
+    }
+        #footer .menu span{
+            padding: 0 20px;
+        }
+
+/**  clearfix */
+.clearfix:after {
+    content: ".";  /* 新しい要素を作る */
+    display: block;  /* ブロックレベル要素に */
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    min-height: 1px;
+}
+
+* html .clearfix {
+    height: 1px;
+    /**//*/
+    height: auto;
+    overflow: hidden;
+    /**/
+}
+
