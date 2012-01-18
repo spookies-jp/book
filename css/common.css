@@ -49,6 +49,21 @@ body {
         padding-left: 100px;
     }
 
+#help {
+    border: 5px solid #ED6B5B;
+    margin: 10px 20px;
+    padding: 5px;
+}
+    #help h3{
+        color: #ED6B5B;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px dotted #ED6B5B;
+    }
+    #help p {
+        padding: 5px 0;
+    }
+
 h2 {
     height: 110px;
     width: 874px;
@@ -101,8 +116,14 @@ h2#library {
         #middle_content .appli_list li p.download{
             background: #ffffff url(/img/icon_download.gif) no-repeat scroll left top;
             padding: 8px 30px;
-            width: 300px;
+            width: 100px;
             height: 25px;
+        }
+        #middle_content .appli_list li p.notice{
+            font-size: 14px;
+            font-weight: bold;
+            width: 300px;
+            padding: 8px;
         }
 
 
