@@ -1,0 +1,33 @@
+1. 以下にtwitterアカウントでログイン
+　https://dev.twitter.com/apps
+
+2. ログイン後の画面で、[Create a new application]ボタンを押下
+
+3. Create an application　のページで
+  Name：　アプリ名（例．マイクッター）
+　Description：　アプリの概要を10文字以上
+　WebSite：　アプリの紹介ページ（なければ適当でもよいです）
+　CallbackURL：　未記入でＯＫです
+
+　規約に同意し、CAPTCHを入力して、[Create your twiter Application]ボタンを押下
+
+4. [Settings]というタブに切り替えて
+　Application Type：　Read, Write
+  Callback URL：　適当なURL
+　に変更して、保存。
+
+5. [Details]タブのキーをリソースファイルにコピーする
+　OAuth Settings項目の中にある
+　・Consumer key
+　・Consumer secret
+
+　の値を
+
+  サンプルプロジェクトの
+  res/values/strings.xml
+　・consumer_key
+　・consumer_secret
+
+　となっている箇所にそれぞれコピーしてください。
+
+6. ビルド後、再度実行してください。
